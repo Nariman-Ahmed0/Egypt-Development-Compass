@@ -2,7 +2,7 @@
 
 A Power BI dashboard that compares **Egypt with the Arab countries and with the rest of the world** across 9 World Bank development indicators (2000-2023).
 
-![Summary page](images/summary.png)
+![Summary page](Images/Summary.png)
 
 ## Objective
 To answer one question: **where does Egypt stand** in health, economy, education, demographics and infrastructure, compared with the Arab average and with all countries?
@@ -61,13 +61,13 @@ RETURN CALCULATE(YOY, Dim_Country[ISO] = "EGY")
 6. **Scale:** Egypt has 93.11M people on average, 75.85M above the Arab average, and ranks 14th in the world.
 
 ## Dashboard pages
-![Life Expectancy](images/life-expectancy.png)
-![Infant Mortality](images/infant-mortality.png)
+![Life Expectancy](Images/Life_Expectancy.png)
+![Infant Mortality](Images/Infant_Mortality.png)
 
 ## Notes
 - The **CO2 emissions** indicator was excluded: the World Bank API no longer returns it (the API answers that the indicator was not found, deleted or archived).
 - The data is loaded from the World Bank API. If an indicator is changed or removed there, a refresh may return different or empty results.
 
 ## Files
-- `Egypt_Development.pbix`: the Power BI report.
-- `images/`: dashboard screenshots (`summary.png`, `life-expectancy.png`, `infant-mortality.png`).
+- `Egypt Development.pbix`: the Power BI report.
+- `Images/`: dashboard screenshots (`Summary.png`, `Life_Expectancy.png`, `Infant_Mortality.png`).
